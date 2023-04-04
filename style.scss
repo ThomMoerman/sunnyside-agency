@@ -1,220 +1,496 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
-    min-width: 375px;
-}
-
-.homepage{
-    background-image: url(../sunnyside-agency/assets/images/mobile/image-header.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    height: 500px;
-    width: 100%;
-    text-align: center;
-    color: white;
-    font-family: 'Fraunces', sans-serif;
-    .home_text{
-        text-align: center;
-        font-weight: 900;
-        font-size: 40px;
-        line-height: 49.32px;
-        margin-top: 72px;
-        letter-spacing: 6.25px;
-        }
-    .home_text_nav{
-        text-align: left;
-        font-weight: 700;
-        margin-left: 20px;
-        padding-top: 22px;
-        font-size: 25px;
+@media screen and (max-width: 700px) {
+    body {
+        min-width: 375px;
     }
-}
 
-.article_nobackground{
-    margin-bottom: 40px;
-    .article_img{
-        img{
-        height: 100%;
+    .homepage {
+        background-image: url(../sunnyside-agency/assets/images/mobile/image-header.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
         width: 100%;
+        text-align: center;
+        color: white;
+        font-family: 'Fraunces', sans-serif;
+
+        .home_text {
+            text-align: center;
+            font-weight: 900;
+            font-size: 40px;
+            line-height: 49.32px;
+            margin-top: 72px;
+            letter-spacing: 6.25px;
+        }
+
+        .home_text_nav {
+            text-align: left;
+            font-weight: 700;
+            margin-left: 20px;
+            padding-top: 22px;
+            font-size: 25px;
         }
     }
-    .article_text{
-        display: block;
-        text-align: center;
-        padding: 20px;
-        h3{
+
+    .article_nobackground {
+        margin-bottom: 40px;
+
+        .article_img {
+            img {
+                height: 100%;
+                width: 100%;
+            }
+        }
+
+        .article_text {
+            display: block;
+            text-align: center;
+            padding: 20px;
+
+            h3 {
+                font-family: 'Fraunces', sans-serif;
+                font-weight: 900;
+                font-size: 32px;
+                line-height: 39.46px;
+                letter-spacing: -0.23px;
+                margin-top: 50px;
+                margin-bottom: 25px;
+            }
+
+            p {
+                font-family: 'Barlow', sans-serif;
+                font-size: 18px;
+                font-weight: 600;
+                line-height: 30px;
+                letter-spacing: -0.13px;
+                color: #808397;
+                margin-bottom: 20px;
+
+            }
+
+            a {
+                font-family: 'Fraunces', sans-serif;
+                font-weight: 900;
+                font-size: 15px;
+                line-height: 25px;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+                text-decoration: none;
+            }
+        }
+    }
+
+    .article_background {
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: #24554A;
+
+        h3 {
+            text-align: center;
             font-family: 'Fraunces', sans-serif;
             font-weight: 900;
-            font-size: 32px;
-            line-height: 39.46px;
-            letter-spacing: -0.23px;
-            margin-top: 50px;
-            margin-bottom: 25px;
+            font-size: 28px;
+            line-height: 34.52px;
+            letter-spacing: -0.2px;
+            padding-top: 385px;
+            padding-bottom: 40px;
         }
-        p{
+
+        p {
+            text-align: center;
+            font-family: 'Barlow', sans-serif;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 27px;
+            letter-spacing: -0.11px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+    }
+
+    .article_background_cherry {
+        background-image: url(../sunnyside-agency/assets/images/mobile/image-graphic-design.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-bottom: 30px;
+    }
+
+    .article_background_mandarin {
+        background-image: url(../sunnyside-agency/assets/images/mobile/image-photography.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-bottom: 30px;
+    }
+
+    .client_testimonial {
+        text-align: center;
+        margin-top: 20px;
+
+        .client_comment {
+            margin-bottom: 35px;
+        }
+
+        h3 {
+            text-transform: uppercase;
+            color: #A7AAAD;
+            font-family: 'Fraunces', sans-serif;
+            font-size: 16px;
+            font-weight: 900;
+            line-height: 20px;
+            letter-spacing: 4px;
+            text-align: center;
+            margin-top: 50px;
+            margin-bottom: 50px;
+
+        }
+
+        img {
+            width: 72px;
+            height: 72px;
+            border-radius: 36px;
+            margin: 5px auto;
+        }
+
+        p {
             font-family: 'Barlow', sans-serif;
             font-size: 18px;
             font-weight: 600;
-            line-height: 30px;
-            letter-spacing: -0.13px;
-            color:#808397;
-            margin-bottom: 20px;
-
+            line-height: 32px;
+            letter-spacing: -0.12857143580913544px;
+            text-align: center;
+            color: #5B636D;
+            padding: 24px;
         }
-        a{
+
+        span.client_name {
             font-family: 'Fraunces', sans-serif;
+            font-size: 18px;
             font-weight: 900;
-            font-size: 15px;
+            line-height: 22px;
+            letter-spacing: -0.12857143580913544px;
+            text-align: center;
+            padding-bottom: 10px;
+        }
+
+        span.client_role {
+            font-family: 'Barlow', sans-serif;
+            font-size: 14px;
+            font-weight: 600;
             line-height: 25px;
-            letter-spacing: 1px;
-            text-transform: uppercase;
-            text-decoration: none;
+            letter-spacing: -0.10000000149011612px;
+            text-align: center;
+            color: #A7AAAD;
+            padding-top: 25px;
+        }
+    }
+
+    .patchwork_img {
+        div {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+        }
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .end_Page {
+        background-color: #90D4C6;
+        text-align: center;
+
+        h3 {
+            color: #2C7566;
+            font-family: 'Fraunces', sans-serif;
+            font-weight: 700;
+            margin-left: 20px;
+            padding-top: 64px;
+            padding-bottom: 50px;
+            font-size: 25px;
+        }
+
+        span {
+            margin-left: 10px;
+            margin-right: 10px;
+            color: #458D7E;
+            font-family: 'Barlow', sans-serif;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 25px;
+            letter-spacing: -0.12857143580913544px;
+            text-align: left;
+        }
+
+        .socialMedia {
+            margin-top: 50px;
+            padding-bottom: 70px;
+        }
+
+        img {
+            width: 20px;
+            height: 20px;
+            padding-left: 30px;
+            padding-right: 30px;
         }
     }
 }
 
-.article_background{
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #24554A;
-    h3{
+@media screen and (min-width: 701px) {
+
+    body {
+        min-width: 375px;
+    }
+
+    .homepage {
+        background-image: url(../sunnyside-agency/assets/images/desktop/image-header.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        height: 800px;
+        width: 100%;
         text-align: center;
+        color: white;
         font-family: 'Fraunces', sans-serif;
-        font-weight: 900;
-        font-size: 28px;
-        line-height: 34.52px;
-        letter-spacing: -0.2px;
-        padding-top: 385px;
-        padding-bottom: 40px;
-    }
-    p{
-        text-align: center;
-        font-family: 'Barlow', sans-serif;
-        font-weight: 600;
-        font-size: 16px;
-        line-height: 27px;
-        letter-spacing: -0.11px;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-}
 
-.article_background_cherry{
-    background-image: url(../sunnyside-agency/assets/images/mobile/image-graphic-design.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding-bottom: 30px;
-}
+        .home_text {
+            text-align: center;
+            font-weight: 900;
+            font-size: 56px;
+            line-height: 49.32px;
+            margin-top: 72px;
+            letter-spacing: 6.25px;
+        }
 
-.article_background_mandarin{
-    background-image: url(../sunnyside-agency/assets/images/mobile/image-photography.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding-bottom: 30px;
-}
+        .home_text_nav {
+            text-align: left;
+            font-weight: 700;
+            margin-left: 50px;
+            padding-top: 46px;
+            font-size: 40px;
+        }
 
-.client_testimonial{
-    text-align: center;
-    margin-top: 20px;
-    .client_comment{
-        margin-bottom: 35px;
+        .home_arrow{
+            padding-top: 140px;
+        }
     }
-    h3{
-        text-transform: uppercase;
-        color: #A7AAAD;
-        font-family: 'Fraunces', sans-serif;
-        font-size: 16px;
-        font-weight: 900;
-        line-height: 20px;
-        letter-spacing: 4px;
-        text-align: center;
-        margin-top: 50px;
-        margin-bottom: 50px;
 
-    }
-    img{
-        width: 72px;
-        height: 72px;
-        border-radius: 36px;
-        margin: 5px auto;
-    }
-    p{
-        font-family: 'Barlow', sans-serif;
-        font-size: 18px;
-        font-weight: 600;
-        line-height: 32px;
-        letter-spacing: -0.12857143580913544px;
-        text-align: center;
-        color: #5B636D;
-        padding: 24px;
-    }
-    span.client_name{
-        font-family: 'Fraunces', sans-serif;
-        font-size: 18px;
-        font-weight: 900;
-        line-height: 22px;
-        letter-spacing: -0.12857143580913544px;
-        text-align: center;
-        padding-bottom: 10px;
-    }
-    span.client_role{
-        font-family: 'Barlow', sans-serif;
-        font-size: 14px;
-        font-weight: 600;
-        line-height: 25px;
-        letter-spacing: -0.10000000149011612px;
-        text-align: center;
-        color: #A7AAAD;
-        padding-top: 25px;
-    }
-}
-
-.patchwork_img{
-    div{
+    .article_nobackground {
         display: flex;
         flex-direction: row;
-        width: 100%;
-    }
-    img{
-        width: 100%;
-    }
-}
+        .article_img {
+            width: 50%;
+            img {
+                height: 100%;
+                width: 100%;
+            }
+        }
 
-.end_Page{
-    background-color: #90D4C6;
-    text-align: center;
-    h3{
-        color:#2C7566;
-        font-family: 'Fraunces', sans-serif;
-        font-weight: 700;
-        margin-left: 20px;
-        padding-top: 64px;
-        padding-bottom: 50px;
-        font-size: 25px;
+        .article_text {
+            width: 50%;
+            margin: 10px auto;
+            margin-top: 75px;
+            h3 {
+                font-family: 'Fraunces', sans-serif;
+                font-weight: 900;
+                font-size: 32px;
+                line-height: 39.46px;
+                letter-spacing: -0.23px;
+                margin-top: 50px;
+                margin-bottom: 25px;
+            }
+
+            p {
+                font-family: 'Barlow', sans-serif;
+                font-size: 18px;
+                font-weight: 600;
+                line-height: 30px;
+                letter-spacing: -0.13px;
+                color: #808397;
+                margin-bottom: 20px;
+
+            }
+
+            a {
+                font-family: 'Fraunces', sans-serif;
+                font-weight: 900;
+                font-size: 15px;
+                line-height: 25px;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+                text-decoration: none;
+            }
+        }
     }
-    span{
-        margin-left: 10px;
-        margin-right: 10px;
-        color:#458D7E;
-        font-family: 'Barlow', sans-serif;
-        font-size: 18px;
-        font-weight: 600;
-        line-height: 25px;
-        letter-spacing: -0.12857143580913544px;
-        text-align: left;
+
+    .article_nobackground_left_right {
+        flex-direction: row-reverse;
     }
-    .socialMedia{
-        margin-top: 50px;
-        padding-bottom: 70px;
+
+    .article_nobackground_right_left {
+        flex-direction: row;
     }
-    img{
-        width: 20px;
-        height: 20px;
-        padding-left: 30px;
-        padding-right: 30px;
+
+    .article_background {
+        width: 50%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: #24554A;
+
+        h3 {
+            text-align: center;
+            font-family: 'Fraunces', sans-serif;
+            font-weight: 900;
+            font-size: 28px;
+            line-height: 34.52px;
+            letter-spacing: -0.2px;
+            padding-top: 385px;
+            padding-bottom: 40px;
+        }
+
+        p {
+            text-align: center;
+            font-family: 'Barlow', sans-serif;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 27px;
+            letter-spacing: -0.11px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+    }
+
+    .article_background_cherry {
+        background-image: url(../sunnyside-agency/assets/images/mobile/image-graphic-design.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-bottom: 30px;
+        display: inline-block;
+    }
+
+    .article_background_mandarin {
+        background-image: url(../sunnyside-agency/assets/images/mobile/image-photography.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-bottom: 30px;
+        display: inline-block;
+    }
+
+    .client_testimonial {
+        text-align: center;
+        margin-top: 20px;
+
+        .client_comment {
+            margin-bottom: 35px;
+        }
+
+        h3 {
+            text-transform: uppercase;
+            color: #A7AAAD;
+            font-family: 'Fraunces', sans-serif;
+            font-size: 16px;
+            font-weight: 900;
+            line-height: 20px;
+            letter-spacing: 4px;
+            text-align: center;
+            margin-top: 50px;
+            margin-bottom: 50px;
+
+        }
+
+        img {
+            width: 72px;
+            height: 72px;
+            border-radius: 36px;
+            margin: 5px auto;
+        }
+
+        p {
+            font-family: 'Barlow', sans-serif;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 32px;
+            letter-spacing: -0.12857143580913544px;
+            text-align: center;
+            color: #5B636D;
+            padding: 24px;
+        }
+
+        span.client_name {
+            font-family: 'Fraunces', sans-serif;
+            font-size: 18px;
+            font-weight: 900;
+            line-height: 22px;
+            letter-spacing: -0.12857143580913544px;
+            text-align: center;
+            padding-bottom: 10px;
+        }
+
+        span.client_role {
+            font-family: 'Barlow', sans-serif;
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 25px;
+            letter-spacing: -0.10000000149011612px;
+            text-align: center;
+            color: #A7AAAD;
+            padding-top: 25px;
+        }
+    }
+
+    .patchwork_img {
+        div {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+        }
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .end_Page {
+        background-color: #90D4C6;
+        text-align: center;
+
+        h3 {
+            color: #2C7566;
+            font-family: 'Fraunces', sans-serif;
+            font-weight: 700;
+            margin-left: 20px;
+            padding-top: 64px;
+            padding-bottom: 50px;
+            font-size: 25px;
+        }
+
+        span {
+            margin-left: 10px;
+            margin-right: 10px;
+            color: #458D7E;
+            font-family: 'Barlow', sans-serif;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 25px;
+            letter-spacing: -0.12857143580913544px;
+            text-align: left;
+        }
+
+        .socialMedia {
+            margin-top: 50px;
+            padding-bottom: 70px;
+        }
+
+        img {
+            width: 20px;
+            height: 20px;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
     }
 }
