@@ -7,7 +7,6 @@
     body {
         min-width: 375px;
     }
-
     .homepage {
         background-image: url(../sunnyside-agency/assets/images/mobile/image-header.jpg);
         background-repeat: no-repeat;
@@ -18,7 +17,6 @@
         text-align: center;
         color: white;
         font-family: 'Fraunces', sans-serif;
-
         .home_text {
             text-align: center;
             font-weight: 900;
@@ -27,7 +25,6 @@
             margin-top: 72px;
             letter-spacing: 6.25px;
         }
-
         .home_text_nav {
             text-align: left;
             font-weight: 700;
@@ -36,22 +33,18 @@
             font-size: 25px;
         }
     }
-
     .article_nobackground {
         margin-bottom: 40px;
-
         .article_img {
             img {
                 height: 100%;
                 width: 100%;
             }
         }
-
         .article_text {
             display: block;
             text-align: center;
             padding: 20px;
-
             h3 {
                 font-family: 'Fraunces', sans-serif;
                 font-weight: 900;
@@ -61,7 +54,6 @@
                 margin-top: 50px;
                 margin-bottom: 25px;
             }
-
             p {
                 font-family: 'Barlow', sans-serif;
                 font-size: 18px;
@@ -70,9 +62,7 @@
                 letter-spacing: -0.13px;
                 color: #808397;
                 margin-bottom: 20px;
-
             }
-
             a {
                 font-family: 'Fraunces', sans-serif;
                 font-weight: 900;
@@ -84,12 +74,10 @@
             }
         }
     }
-
     .article_background {
         background-size: cover;
         background-repeat: no-repeat;
         color: #24554A;
-
         h3 {
             text-align: center;
             font-family: 'Fraunces', sans-serif;
@@ -100,7 +88,6 @@
             padding-top: 385px;
             padding-bottom: 40px;
         }
-
         p {
             text-align: center;
             font-family: 'Barlow', sans-serif;
@@ -112,29 +99,24 @@
             padding-right: 20px;
         }
     }
-
     .article_background_cherry {
         background-image: url(../sunnyside-agency/assets/images/mobile/image-graphic-design.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         padding-bottom: 30px;
     }
-
     .article_background_mandarin {
         background-image: url(../sunnyside-agency/assets/images/mobile/image-photography.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         padding-bottom: 30px;
     }
-
     .client_testimonial {
         text-align: center;
         margin-top: 20px;
-
         .client_comment {
             margin-bottom: 35px;
         }
-
         h3 {
             text-transform: uppercase;
             color: #A7AAAD;
@@ -146,16 +128,13 @@
             text-align: center;
             margin-top: 50px;
             margin-bottom: 50px;
-
         }
-
         img {
             width: 72px;
             height: 72px;
             border-radius: 36px;
             margin: 5px auto;
         }
-
         p {
             font-family: 'Barlow', sans-serif;
             font-size: 18px;
@@ -166,7 +145,6 @@
             color: #5B636D;
             padding: 24px;
         }
-
         span.client_name {
             font-family: 'Fraunces', sans-serif;
             font-size: 18px;
@@ -176,7 +154,6 @@
             text-align: center;
             padding-bottom: 10px;
         }
-
         span.client_role {
             font-family: 'Barlow', sans-serif;
             font-size: 14px;
@@ -188,23 +165,19 @@
             padding-top: 25px;
         }
     }
-
     .patchwork_img {
         div {
             display: flex;
             flex-direction: row;
             width: 100%;
         }
-
         img {
             width: 100%;
         }
     }
-
     .end_Page {
         background-color: #90D4C6;
         text-align: center;
-
         h3 {
             color: #2C7566;
             font-family: 'Fraunces', sans-serif;
@@ -214,7 +187,6 @@
             padding-bottom: 50px;
             font-size: 25px;
         }
-
         span {
             margin-left: 10px;
             margin-right: 10px;
@@ -226,12 +198,10 @@
             letter-spacing: -0.12857143580913544px;
             text-align: left;
         }
-
         .socialMedia {
             margin-top: 50px;
             padding-bottom: 70px;
         }
-
         img {
             width: 20px;
             height: 20px;
@@ -242,11 +212,9 @@
 }
 
 @media screen and (min-width: 701px) {
-
     body {
         min-width: 375px;
     }
-
     .homepage {
         background-image: url(../sunnyside-agency/assets/images/desktop/image-header.jpg);
         background-repeat: no-repeat;
@@ -257,7 +225,6 @@
         text-align: center;
         color: white;
         font-family: 'Fraunces', sans-serif;
-
         .home_text {
             text-align: center;
             font-weight: 900;
@@ -266,7 +233,6 @@
             margin-top: 72px;
             letter-spacing: 6.25px;
         }
-
         .home_text_nav {
             text-align: left;
             font-weight: 700;
@@ -274,12 +240,10 @@
             padding-top: 46px;
             font-size: 40px;
         }
-
-        .home_arrow{
+        .home_arrow {
             padding-top: 140px;
         }
     }
-
     .article_nobackground {
         display: flex;
         flex-direction: row;
@@ -290,7 +254,6 @@
                 width: 100%;
             }
         }
-
         .article_text {
             width: 50%;
             margin: 10px auto;
@@ -304,7 +267,6 @@
                 margin-top: 50px;
                 margin-bottom: 25px;
             }
-
             p {
                 font-family: 'Barlow', sans-serif;
                 font-size: 18px;
@@ -313,9 +275,7 @@
                 letter-spacing: -0.13px;
                 color: #808397;
                 margin-bottom: 20px;
-
             }
-
             a {
                 font-family: 'Fraunces', sans-serif;
                 font-weight: 900;
@@ -327,68 +287,66 @@
             }
         }
     }
-
     .article_nobackground_left_right {
         flex-direction: row-reverse;
     }
-
     .article_nobackground_right_left {
         flex-direction: row;
     }
-
-    .article_background {
-        width: 50%;
-        background-size: cover;
-        background-repeat: no-repeat;
-        color: #24554A;
-
-        h3 {
-            text-align: center;
-            font-family: 'Fraunces', sans-serif;
-            font-weight: 900;
-            font-size: 28px;
-            line-height: 34.52px;
-            letter-spacing: -0.2px;
-            padding-top: 385px;
-            padding-bottom: 40px;
+    .article_background_display {
+        display: flex;
+        flex-direction: row;
+        .article_background {
+            display: flex;
+            flex-direction: row;
+            width: 50%;
+            background-size: cover;
+            background-repeat: no-repeat;
+            color: #24554A;
+            h3 {
+                text-align: center;
+                font-family: 'Fraunces', sans-serif;
+                font-weight: 900;
+                font-size: 28px;
+                line-height: 34.52px;
+                letter-spacing: -0.2px;
+                padding-top: 385px;
+                padding-bottom: 40px;
+            }
+            p {
+                text-align: center;
+                font-family: 'Barlow', sans-serif;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 27px;
+                letter-spacing: -0.11px;
+                padding-left: 20px;
+                padding-right: 20px;
+            }
         }
-
-        p {
-            text-align: center;
-            font-family: 'Barlow', sans-serif;
-            font-weight: 600;
-            font-size: 16px;
-            line-height: 27px;
-            letter-spacing: -0.11px;
-            padding-left: 20px;
-            padding-right: 20px;
+        .article_background_cherry {
+            background-image: url(../sunnyside-agency/assets/images/mobile/image-graphic-design.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            padding-bottom: 30px;
+            display: flex;
+            flex-direction: row;
+        }
+        .article_background_mandarin {
+            background-image: url(../sunnyside-agency/assets/images/mobile/image-photography.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            padding-bottom: 30px;
+            display: flex;
+            flex-direction: row;
         }
     }
-
-    .article_background_cherry {
-        background-image: url(../sunnyside-agency/assets/images/mobile/image-graphic-design.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        padding-bottom: 30px;
-        display: inline-block;
-    }
-
-    .article_background_mandarin {
-        background-image: url(../sunnyside-agency/assets/images/mobile/image-photography.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        padding-bottom: 30px;
-        display: inline-block;
-    }
-
     .client_testimonial {
         text-align: center;
         margin-top: 20px;
-
         .client_comment {
             margin-bottom: 35px;
         }
-
         h3 {
             text-transform: uppercase;
             color: #A7AAAD;
@@ -400,16 +358,13 @@
             text-align: center;
             margin-top: 50px;
             margin-bottom: 50px;
-
         }
-
         img {
             width: 72px;
             height: 72px;
             border-radius: 36px;
             margin: 5px auto;
         }
-
         p {
             font-family: 'Barlow', sans-serif;
             font-size: 18px;
@@ -420,7 +375,6 @@
             color: #5B636D;
             padding: 24px;
         }
-
         span.client_name {
             font-family: 'Fraunces', sans-serif;
             font-size: 18px;
@@ -430,7 +384,6 @@
             text-align: center;
             padding-bottom: 10px;
         }
-
         span.client_role {
             font-family: 'Barlow', sans-serif;
             font-size: 14px;
@@ -442,23 +395,19 @@
             padding-top: 25px;
         }
     }
-
     .patchwork_img {
         div {
             display: flex;
             flex-direction: row;
             width: 100%;
         }
-
         img {
             width: 100%;
         }
     }
-
     .end_Page {
         background-color: #90D4C6;
         text-align: center;
-
         h3 {
             color: #2C7566;
             font-family: 'Fraunces', sans-serif;
@@ -468,7 +417,6 @@
             padding-bottom: 50px;
             font-size: 25px;
         }
-
         span {
             margin-left: 10px;
             margin-right: 10px;
@@ -480,12 +428,10 @@
             letter-spacing: -0.12857143580913544px;
             text-align: left;
         }
-
         .socialMedia {
             margin-top: 50px;
             padding-bottom: 70px;
         }
-
         img {
             width: 20px;
             height: 20px;
