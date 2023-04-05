@@ -27,11 +27,18 @@
     letter-spacing: 6.25px;
   }
   .homepage .home_text_nav {
+    display: inline-block;
     text-align: left;
     font-weight: 700;
     margin-left: 20px;
-    padding-top: 22px;
+    margin-right: 137px;
+    padding-top: 32px;
     font-size: 25px;
+  }
+  .homepage .burger {
+    display: inline-block;
+    margin-right: 40px;
+    padding-left: 20px;
   }
   .article_nobackground {
     margin-bottom: 40px;
@@ -239,9 +246,11 @@
   .homepage .home_arrow {
     padding-top: 140px;
   }
+  .homepage .burger {
+    display: none;
+  }
   .article_nobackground {
     display: flex;
-    flex-direction: row;
   }
   .article_nobackground .article_img {
     width: 50%;
@@ -250,12 +259,12 @@
     height: 100%;
     width: 100%;
   }
-  .article_nobackground .article_text {
+  .article_text {
     width: 50%;
     margin: 10px auto;
     margin-top: 75px;
   }
-  .article_nobackground .article_text h3 {
+  .article_text h3 {
     font-family: "Fraunces", sans-serif;
     font-weight: 900;
     font-size: 32px;
@@ -264,7 +273,7 @@
     margin-top: 50px;
     margin-bottom: 25px;
   }
-  .article_nobackground .article_text p {
+  .article_text p {
     font-family: "Barlow", sans-serif;
     font-size: 18px;
     font-weight: 600;
@@ -273,7 +282,7 @@
     color: #808397;
     margin-bottom: 20px;
   }
-  .article_nobackground .article_text a {
+  .article_text a {
     font-family: "Fraunces", sans-serif;
     font-weight: 900;
     font-size: 15px;
@@ -317,13 +326,13 @@
     padding-right: 20px;
   }
   .article_background_display .article_background_cherry {
-    background-image: url(../sunnyside-agency/assets/images/mobile/image-graphic-design.jpg);
+    background-image: url(../sunnyside-agency/assets/images/desktop/image-graphic-design.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     padding-bottom: 30px;
   }
   .article_background_display .article_background_mandarin {
-    background-image: url(../sunnyside-agency/assets/images/mobile/image-photography.jpg);
+    background-image: url(../sunnyside-agency/assets/images/desktop/image-photography.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     padding-bottom: 30px;

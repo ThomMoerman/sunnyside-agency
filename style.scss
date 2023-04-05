@@ -26,11 +26,18 @@
             letter-spacing: 6.25px;
         }
         .home_text_nav {
+            display: inline-block;
             text-align: left;
             font-weight: 700;
             margin-left: 20px;
-            padding-top: 22px;
+            margin-right: 137px;
+            padding-top: 32px;
             font-size: 25px;
+        }
+        .burger {
+            display: inline-block;
+            margin-right: 40px;
+            padding-left: 20px;
         }
     }
     .article_nobackground {
@@ -243,10 +250,12 @@
         .home_arrow {
             padding-top: 140px;
         }
+        .burger {
+            display: none;
+        }
     }
     .article_nobackground {
         display: flex;
-        flex-direction: row;
         .article_img {
             width: 50%;
             img {
@@ -254,37 +263,37 @@
                 width: 100%;
             }
         }
-        .article_text {
-            width: 50%;
-            margin: 10px auto;
-            margin-top: 75px;
-            h3 {
-                font-family: 'Fraunces', sans-serif;
-                font-weight: 900;
-                font-size: 32px;
-                line-height: 39.46px;
-                letter-spacing: -0.23px;
-                margin-top: 50px;
-                margin-bottom: 25px;
-            }
-            p {
-                font-family: 'Barlow', sans-serif;
-                font-size: 18px;
-                font-weight: 600;
-                line-height: 30px;
-                letter-spacing: -0.13px;
-                color: #808397;
-                margin-bottom: 20px;
-            }
-            a {
-                font-family: 'Fraunces', sans-serif;
-                font-weight: 900;
-                font-size: 15px;
-                line-height: 25px;
-                letter-spacing: 1px;
-                text-transform: uppercase;
-                text-decoration: none;
-            }
+    }
+    .article_text {
+        width: 50%;
+        margin: 10px auto;
+        margin-top: 75px;
+        h3 {
+            font-family: 'Fraunces', sans-serif;
+            font-weight: 900;
+            font-size: 32px;
+            line-height: 39.46px;
+            letter-spacing: -0.23px;
+            margin-top: 50px;
+            margin-bottom: 25px;
+        }
+        p {
+            font-family: 'Barlow', sans-serif;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 30px;
+            letter-spacing: -0.13px;
+            color: #808397;
+            margin-bottom: 20px;
+        }
+        a {
+            font-family: 'Fraunces', sans-serif;
+            font-weight: 900;
+            font-size: 15px;
+            line-height: 25px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            text-decoration: none;
         }
     }
     .article_nobackground_left_right {
@@ -321,13 +330,13 @@
             }
         }
         .article_background_cherry {
-            background-image: url(../sunnyside-agency/assets/images/mobile/image-graphic-design.jpg);
+            background-image: url(../sunnyside-agency/assets/images/desktop/image-graphic-design.jpg);
             background-size: cover;
             background-repeat: no-repeat;
             padding-bottom: 30px;
         }
         .article_background_mandarin {
-            background-image: url(../sunnyside-agency/assets/images/mobile/image-photography.jpg);
+            background-image: url(../sunnyside-agency/assets/images/desktop/image-photography.jpg);
             background-size: cover;
             background-repeat: no-repeat;
             padding-bottom: 30px;
